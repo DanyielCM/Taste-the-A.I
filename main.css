@@ -1,0 +1,41 @@
+
+@font-face {
+  font-family: "Kaushan Script";
+  src: url("kaushan-script\KaushanScript-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Kaushan Script";
+}
+
+#background1, #text1, #text2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.button {
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  background-color: #F6F1F1;
+  font-size: 1.5vw;
+  font-family: "Kaushan Script";
+}
+
+#start, #continue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vw auto;
+}
+
+#text2, #continue {
+  display: none;
+}
