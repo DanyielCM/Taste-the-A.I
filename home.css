@@ -22,19 +22,40 @@ nav {
     background-image: url("Images/logo.name.png");
     background-size: cover;
     background-repeat: no-repeat;
-    position: inherit;
-    margin-top: 0.08vw;
-    margin-left: 0.8vw;
+    float: left;
+    margin-top: 0.07vw;
+    margin-left: 0.6vw;
     width: 7vw;
     height: 1.8vw;
 }
 
 #burger-menu {
-    position: inherit;
-    top: 0.35vw;
-    right: 1vw;
-    font-size: 1.5vw;
-    color: #000
+    float: right;
+    margin-top: 0.4vw;
+    margin-right: 0.8vw;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #e00b4c;
+}
+
+.nav-sections {
+    float: right;
+    font-size: 1.2vw;
+    font-family: "Open Sans";
+    margin-top: 0.18vw;
+    margin-right: 0.8vw;
+    display: none;
+}
+.reference  {
+    color: #000;
+    text-decoration: none;
 }
 
 /* First Content */
@@ -91,7 +112,7 @@ nav {
     opacity: 0.8;
 }
 
-#arrow-down {
+.arrow-down {
     --fa-animation-duration: 3s;
     position: absolute;
     top: 46vw;
@@ -126,6 +147,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 
 .title {
@@ -138,7 +160,7 @@ p {
     font-size: 1.1vw;
     font-family: "Open Sans";
     font-style: italic;
-    padding: 0 10vw ;
+    padding: 0 8vw ;
 }
 
 /* 20, 30, 40' Content */
@@ -201,6 +223,18 @@ p {
     border: 0.5vw groove #4FA095;
     border-right: 0;
     border-top: 0;
+}
+
+.button-seat {
+    margin: 1.5vw auto;
+    background-image: linear-gradient(to top right, #D25380, #FDA769, #FFD95A, #FFE898 );
+    font-size: 1.2vw;
+    font-family: "Allerta";
+    width: 14vw;
+    height: 2.8vw;
+    border: 0;
+    border-radius: 30% 50% / 50% 20%;
+    color: #fff;
 }
 
 /* Gallery  */

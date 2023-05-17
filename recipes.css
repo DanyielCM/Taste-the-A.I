@@ -1,0 +1,388 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #F6F1F1;
+}  
+
+
+/* NavBar */
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 2.1vw;
+    background-color: rgb(255, 234, 210, 0.5);
+    z-index: 3;
+}
+
+#logo {
+    background-image: url("Images/logo.name.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 0.07vw;
+    margin-left: 0.6vw;
+    width: 7vw;
+    height: 1.8vw;
+}
+
+#burger-menu {
+    float: right;
+    margin-top: 0.4vw;
+    margin-right: 0.8vw;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #e00b4c;
+}
+
+.nav-sections {
+    float: right;
+    font-size: 1.2vw;
+    font-family: "Open Sans";
+    margin-top: 0.18vw;
+    margin-right: 0.8vw;
+    display: none;
+}
+.reference  {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* Carousel controls */
+
+.carousel-control-prev {
+    height: 55vw;
+}
+
+.carousel-control-next {
+    height: 55vw;
+}
+
+/* Grid Containers */
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 4vw;
+    text-align: center;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 30vw;
+    gap: 6vw;
+    text-align: left;
+    padding: 3vw 13.5vw 3vw;
+}
+ 
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 3vw;
+    text-align: center;
+}
+
+/* Common properties Entry*/
+
+.recipe-photo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 70%;
+    position: relative;
+    top: 8vw;
+    left: 28vw;
+    width: 32vw;
+    height: 31vw;
+    border-radius: 50%;
+}
+
+.circle1 {
+    position: relative;
+    top: -26vw;
+    left: 17vw;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+}
+
+.circle2 {
+    position: relative;
+    top: -6vw;
+    left: 12vw;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+}
+
+.recipe-info {
+    position: absolute;
+    top: 15vw;
+    left: 56vw;
+    width: 26vw;
+    height: 31vw;
+    border-radius: 20% 50% / 40% 10%;
+}
+
+.r-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Allerta";
+    font-size: 1.5vw;
+    padding: 4.5vw 1.8vw 3.2vw;
+}
+
+.icons{
+    font-size: 1.9vw;
+    padding-top: 2vw;
+    color: #e00b4c;
+}
+
+.categories-name {
+    display: inline;
+    font-family: "Open Sans";
+    font-size: 1vw;
+    padding-top: 0.8vw;
+    font-weight: 700;
+}
+
+.details {
+    display: inline;
+    font-family: "Open Sans";
+    font-size: 1vw;
+}
+
+.arrow-down {
+    --fa-animation-duration: 3s;
+    font-size: 2.5vw;
+    padding-top: 2vw;
+    color: #e00b4c;
+}
+/* Recipe One */
+
+#recipe1 {
+    background-image: url("Images/first-r.jpg");
+}
+
+#info1 {
+    background-color: #F99B7D;
+}
+
+#c-one {
+    background-color: #E76161;
+}
+
+#c-two {
+    background-color: #FE6244;
+}
+
+/* Recipe Two */
+
+#recipe2 {
+    background-image: url("Images/second-r.jpg");
+}
+
+#info2 {
+    background-color: #E8A0BF;
+}
+
+#c-three {
+    background-color: #e00b4c;
+}
+
+#c-four {
+    background-color: #FF55BB;
+}
+
+/* Recipe Three */
+
+
+#recipe3 {
+    background-image: url("Images/third-r.jpg");
+}
+
+#info3 {
+    background-color: #E5D1FA;
+}
+
+#c-five {
+    background-color: #E8A0BF;
+}
+
+#c-six {
+    background-color: #9F73AB;
+}
+
+/* Recipes */
+
+.recipes-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 75%;
+    height: auto;
+    width: 100vw;
+}
+
+.text {
+    font-family: "Open Sans";
+    font-size: 1vw;
+    color: #fff;
+    padding: 2vw;
+}
+
+
+/* Recipe One */
+#recipe1-background {
+    background-image: linear-gradient(to bottom right, #E76161, #E08E6D, #F6C391);
+    border-top: 1vw solid #FE6244;
+}
+
+#tx1 {
+    background-color: #000;
+    opacity: 0.7;
+    border: 0.5vw solid #E76161;
+}
+
+#ph1 {
+    background-image: url("Images/r1-i1.jpg");
+    background-size: cover;
+    filter: drop-shadow(0 0 1.5vw #FFE194);
+}
+
+
+#tx2 {
+    background-color: #000;
+    opacity: 0.7;
+    border: 0.5vw solid #F99B7D;
+}
+
+#ph2 {
+    background-image: url("Images/r1-i2.jpeg");
+    background-size: cover;
+    background-position: 50% 30%;
+    filter: drop-shadow(0 0 1.5vw #FFE194);
+}
+
+#tx3 {
+    background-color: #000;
+    opacity: 0.7;
+    border: 0.5vw solid #F6C391;
+    font-size: 0.95vw;
+
+}
+
+#ph3 {
+    background-image: url("Images/r1-i3.jpg");
+    background-size: cover;
+    filter: drop-shadow(0 0 1.5vw #FFE194);
+}
+
+/* Recipe Two */
+
+#recipe2-background {
+    background-image: linear-gradient(to bottom right, #CDE990, #FFFFE8, #FFD4D4);
+    border-top: 1vw solid #AACB73;
+}
+
+#tx4 {
+    background-color: #000;
+    opacity: 0.7;
+    border: 0.5vw solid #CDE990;
+}
+
+#ph4 {
+    background-image: url("Images/r2-i3.jpg");
+    background-size: cover;
+    background-position: 20% 45%;
+    filter: drop-shadow(0 0 1.5vw #FFE194);
+}
+
+#tx5 {
+    background-color: #000;
+    opacity: 0.7;
+    border: 0.5vw solid #F9EBC8;
+    font-size: 0.9vw;
+}
+
+#ph5 {
+    background-image: url("Images/r2-i2c.jpg");
+    background-size: cover;
+    filter: drop-shadow(0 0 1.5vw #FFE194);
+}
+
+#tx6 {
+    background-color: #000;
+    opacity: 0.7;
+    border: 0.5vw solid #FFD4D4;
+    font-size: 0.9vw;
+}
+
+#ph6 {
+    background-image: url("Images/r2-i1.jpg");
+    background-size: cover;
+    background-position: 20% 60%;
+    filter: drop-shadow(0 0 1.5vw #FFE194);
+}
+
+/* Recipe Three */ 
+
+#recipe3-background {
+    background-image: linear-gradient(to bottom right, #FFD95A, #FDA769, #D25380);
+    border-top: 1vw solid #F99417;
+}
+
+#tx7 {
+    background-color: #000;
+    opacity: 0.7;
+    border: 0.5vw solid #FFD95A;
+}
+
+#ph7 {
+    background-image: url("Images/r3-i1.jpg");
+    background-size: cover;
+    background-position: 20% 60%;
+    filter: drop-shadow(0 0 1.5vw #FFE194);
+}
+
+#tx8 {
+    background-color: #000;
+    opacity: 0.7;
+    border: 0.5vw solid #F99417;
+    font-size: 0.95vw;
+}
+
+#ph8 {
+    background-image: url("Images/r3-i2.jpg");
+    background-size: cover;
+    background-position: 20% 60%;
+    filter: drop-shadow(0 0 1.5vw #FFE194);
+}
+
+#tx9 {
+    background-color: #000;
+    opacity: 0.7;
+    border: 0.5vw solid #D25380;
+    font-size: 0.95vw;
+}
+
+#ph9 {
+    background-image: url("Images/r3-i3.jpg");
+    background-size: cover;
+    background-position: 20% 60%;
+    filter: drop-shadow(0 0 1.5vw #FFE194);
+}

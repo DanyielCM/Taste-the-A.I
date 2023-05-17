@@ -20,3 +20,12 @@ $(".grid-item-g").on( "mouseover", function() {
     $("#" + id).css ( "filter", "none" );
 });
 
+$("#burger-menu").on( "click", function() {
+    var popup = document.getElementById("burger-menu");
+    if (popup.classList.contains("black")) {
+        popup.classList.toggle("white");
+    };
+    $(".nav-sections").toggle (400, function() {});
+    $(".nav-sections").css ("display", "block");
+});
+
