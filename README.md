@@ -1,2 +1,2 @@
 # Taste-the-A.I
-[Link to Taste-the-A.I](https://github.com/DanyielCM/Taste-the-A.I-/actions/runs/5000241576/jobs/8957452492)
+[Link to Taste-the-A.I](https://danyielcm.github.io/Taste-the-A.I-/)
