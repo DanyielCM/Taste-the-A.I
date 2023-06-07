@@ -49,9 +49,9 @@ nav {
 
 .nav-sections {
     float: right;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-family: "Open Sans";
-    margin-top: 0.18vw;
+    margin-top: 0.19vw;
     margin-right: 0.8vw;
     display: none;
 }
@@ -256,12 +256,14 @@ nav {
     background-color: #000;
     opacity: 0.7;
     border: 0.5vw solid #E76161;
+    border-radius: 10% 40% / 30% 15%;
 }
 
 #ph1 {
     background-image: url("Images/r1-i1.jpg");
     background-size: cover;
     filter: drop-shadow(0 0 1.5vw #FFE194);
+    border-radius:  40% 15% / 20% 50%;
 }
 
 
@@ -269,6 +271,7 @@ nav {
     background-color: #000;
     opacity: 0.7;
     border: 0.5vw solid #F99B7D;
+    border-radius: 10% 40% / 30% 15%;
 }
 
 #ph2 {
@@ -276,6 +279,7 @@ nav {
     background-size: cover;
     background-position: 50% 30%;
     filter: drop-shadow(0 0 1.5vw #FFE194);
+    border-radius:  40% 15% / 20% 50%;
 }
 
 #tx3 {
@@ -283,13 +287,14 @@ nav {
     opacity: 0.7;
     border: 0.5vw solid #F6C391;
     font-size: 0.95vw;
-
+    border-radius: 10% 40% / 30% 15%;
 }
 
 #ph3 {
     background-image: url("Images/r1-i3.jpg");
     background-size: cover;
     filter: drop-shadow(0 0 1.5vw #FFE194);
+    border-radius:  40% 15% / 20% 50%;
 }
 
 /* Recipe Two */
@@ -303,6 +308,7 @@ nav {
     background-color: #000;
     opacity: 0.7;
     border: 0.5vw solid #CDE990;
+    border-radius: 10% 40% / 30% 15%;
 }
 
 #ph4 {
@@ -310,6 +316,7 @@ nav {
     background-size: cover;
     background-position: 20% 45%;
     filter: drop-shadow(0 0 1.5vw #FFE194);
+    border-radius:  40% 15% / 20% 50%;
 }
 
 #tx5 {
@@ -317,12 +324,14 @@ nav {
     opacity: 0.7;
     border: 0.5vw solid #F9EBC8;
     font-size: 0.9vw;
+    border-radius: 10% 40% / 30% 15%;
 }
 
 #ph5 {
     background-image: url("Images/r2-i2c.jpg");
     background-size: cover;
     filter: drop-shadow(0 0 1.5vw #FFE194);
+    border-radius:  40% 15% / 20% 50%;
 }
 
 #tx6 {
@@ -330,6 +339,7 @@ nav {
     opacity: 0.7;
     border: 0.5vw solid #FFD4D4;
     font-size: 0.9vw;
+    border-radius: 10% 40% / 30% 15%;
 }
 
 #ph6 {
@@ -337,6 +347,7 @@ nav {
     background-size: cover;
     background-position: 20% 60%;
     filter: drop-shadow(0 0 1.5vw #FFE194);
+    border-radius:  40% 15% / 20% 50%;
 }
 
 /* Recipe Three */ 
@@ -350,6 +361,7 @@ nav {
     background-color: #000;
     opacity: 0.7;
     border: 0.5vw solid #FFD95A;
+    border-radius: 10% 40% / 30% 15%;
 }
 
 #ph7 {
@@ -357,6 +369,7 @@ nav {
     background-size: cover;
     background-position: 20% 60%;
     filter: drop-shadow(0 0 1.5vw #FFE194);
+    border-radius:  40% 15% / 20% 50%;
 }
 
 #tx8 {
@@ -364,6 +377,7 @@ nav {
     opacity: 0.7;
     border: 0.5vw solid #F99417;
     font-size: 0.95vw;
+    border-radius: 10% 40% / 30% 15%;
 }
 
 #ph8 {
@@ -371,6 +385,7 @@ nav {
     background-size: cover;
     background-position: 20% 60%;
     filter: drop-shadow(0 0 1.5vw #FFE194);
+    border-radius:  40% 15% / 20% 50%;
 }
 
 #tx9 {
@@ -378,6 +393,7 @@ nav {
     opacity: 0.7;
     border: 0.5vw solid #D25380;
     font-size: 0.95vw;
+    border-radius: 10% 40% / 30% 15%;
 }
 
 #ph9 {
@@ -385,4 +401,5 @@ nav {
     background-size: cover;
     background-position: 20% 60%;
     filter: drop-shadow(0 0 1.5vw #FFE194);
+    border-radius:  40% 15% / 20% 50%;
 }

@@ -47,11 +47,11 @@ nav {
 
 .nav-sections {
     float: right;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-family: "Open Sans";
-    margin-top: 0.18vw;
+    margin-top: 0.19vw;
     margin-right: 0.8vw;
-    display: none;
+    display: none; 
 }
 .reference  {
     color: #000;
@@ -73,28 +73,16 @@ nav {
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
-    top: 23vw;
+    top: 27vw;
     right: 3vw;
-    height: 22.5vw;
-    width: 40vw;
-    border-radius: 40%;
-}
-
-#play {
-    position: absolute;
-    top: 23vw;
-    right: 3vw;
-    height: 22.5vw;
-    width: 40vw;
-    border-radius: 40%;
-    border: 0;
-    opacity: 0;
-    cursor: pointer;
+    height: 20.5vw;
+    width: 37vw;
+    border-radius: 10%;
 }
 
 #header {
     position: absolute;
-    left: 13vw;
+    left: 13vw; 
     top: 13.3vw;
     font-size: 4vw;
     font-family: "Kaushan Script";
@@ -163,7 +151,7 @@ p {
     padding: 0 8vw ;
 }
 
-/* 20, 30, 40' Content */
+/* Grid Containers */
 
 .grid-container1, .grid-container3 {
     display: grid;
@@ -176,6 +164,27 @@ p {
     grid-template-columns: 4fr 3fr;
     grid-auto-rows: 32vw;
 }
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 20vw;
+    grid-auto-columns: 10vw;
+    gap: 1vw;
+    padding: 17.5vw 5vw 5vw;
+    background-color: #F6F1F1;
+}
+
+.grid-container5 {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 1fr;
+    grid-auto-rows: 10vw;
+    grid-auto-columns: 12vw;
+    gap: 0.5vw;
+    padding: 0vw 4vw 4vw;
+}
+
+/* 20, 30, 40' Content */
 
 .line {
     height: 0.3vw;
@@ -227,14 +236,28 @@ p {
 
 .button-seat {
     margin: 1.5vw auto;
-    background-image: linear-gradient(to top right, #D25380, #FDA769, #FFD95A, #FFE898 );
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     font-family: "Allerta";
-    width: 14vw;
-    height: 2.8vw;
-    border: 0;
-    border-radius: 30% 50% / 50% 20%;
-    color: #fff;
+    width: 12vw;
+    height: 4vw;
+    font-family: "Kaushan Script";
+    border-bottom: 0.3vw solid #e00b4c;
+    border-left: 0.2vw solid #e00b4c;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #000;
+}
+
+.button-seat:hover {
+    width: 11.5vw;
+    height: 3.8vw;
+    font-size: 1.25vw;
+}
+
+.button-seat:active{
+    -webkit-box-shadow: inset 30px -40px 40px -40px rgba(224,11,76,0.6);
+    -moz-box-shadow: inset 30px -40px 40px -40px rgba(224,11,76,0.6);
+    box-shadow: inset 30px -40px 40px -40px rgba(224,11,76,0.6);
 }
 
 /* Gallery  */
@@ -260,16 +283,6 @@ p {
     font-size: 4vw;
     font-family: "Kaushan Script";
     z-index: 2;
-}
-
-.grid-container4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 20vw;
-    grid-auto-columns: 10vw;
-    gap: 0.5vw;
-    padding: 17.5vw 5vw 5vw;
-    background-color: #F6F1F1;
 }
 
 .grid-item-g {
@@ -340,6 +353,7 @@ p {
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    width: 55vw;
 }
 
 .pink-border {
@@ -370,16 +384,22 @@ p {
     font-family: "Open Sans";
     font-style: italic;
     background-image: linear-gradient(to bottom, #F6F1F1 , #FFD95A);
-    height: 28vw;
+    height: 25vw;
     padding-top: 5vw;
 }
 
 #f-name {
-    width: 10vw;
+    width: 13vw;
     height: auto
 }
 
 #f-icon {
-    width: 5vw;
+    width: 8vw;
     height: auto;
 }
+
+#f1, #f3 {
+    margin-top: 1.2vw;
+    font-size: 0.95vw;
+}
+
