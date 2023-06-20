@@ -13,7 +13,7 @@ body {
 nav {
     position: fixed;
     width: 100%;
-    height: 2.1vw;
+    height: 2.5vw;
     background-color: rgb(255, 234, 210, 0.5);
     z-index: 3;
 }
@@ -23,15 +23,15 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     float: left;
-    margin-top: 0.07vw;
+    margin-top: 0.1vw;
     margin-left: 0.6vw;
-    width: 7vw;
-    height: 1.8vw;
+    width: 7.5vw;
+    height: 2vw;
 }
 
 #burger-menu {
     float: right;
-    margin-top: 0.4vw;
+    margin-top: 0.55vw;
     margin-right: 0.8vw;
     font-size: 1.4vw;
     cursor: pointer;
@@ -47,9 +47,9 @@ nav {
 
 .nav-sections {
     float: right;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     font-family: "Open Sans";
-    margin-top: 0.19vw;
+    margin-top: 0.3vw;
     margin-right: 0.8vw;
     display: none; 
 }
@@ -127,7 +127,7 @@ p {
 }
 
 .grid-item {
-    background-color: #F6F1F1;
+    background-color: #FDF4F5;
 }
 
 .content {
@@ -172,7 +172,7 @@ p {
     grid-auto-columns: 10vw;
     gap: 1vw;
     padding: 17.5vw 5vw 5vw;
-    background-color: #F6F1F1;
+    background-color: #FDF4F5;
 }
 
 .grid-container5 {
@@ -343,7 +343,7 @@ p {
 /* Carousel */
 
 #carouselRide {
-    background-color: #F6F1F1;
+    background-color: #FDF4F5;
     padding: 4vw 0;
 }
 
@@ -383,7 +383,7 @@ p {
     margin: 0 auto;
     font-family: "Open Sans";
     font-style: italic;
-    background-image: linear-gradient(to bottom, #F6F1F1 , #FFD95A);
+    background-image: linear-gradient(to bottom, #FDF4F5 , #FFD95A);
     height: 25vw;
     padding-top: 5vw;
 }

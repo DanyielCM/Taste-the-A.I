@@ -29,3 +29,13 @@ $("#burger-menu").on( "click", function() {
     $(".nav-sections").css ("display", "block");
 });
 
+$("#book-button").on( "click", function() {
+    $(".content").css ("display", "none");
+    $(".content2").css ("display", "block");
+});
+
+$("#submit").on( "click", function() {
+    $(".content2").css ("display", "none");
+    $(".content3").css ("display", "block");
+});
+

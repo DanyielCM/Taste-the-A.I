@@ -9,7 +9,7 @@ body {
 }  
 
 .background-color {
-    background-color: #F6F1F1;
+    background-color: #FDF4F5;
     height: 100vh;
 }
 
@@ -18,7 +18,7 @@ body {
 nav {
     position: fixed;
     width: 100%;
-    height: 2.1vw;
+    height: 2.5vw;
     background-color: rgb(255, 234, 210, 0.5);
     z-index: 3;
 }
@@ -29,15 +29,15 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     float: left;
-    margin-top: 0.07vw;
+    margin-top: 0.1vw;
     margin-left: 0.6vw;
-    width: 7vw;
-    height: 1.8vw;
+    width: 7.5vw;
+    height: 2vw;
 }
 
 #burger-menu {
     float: right;
-    margin-top: 0.4vw;
+    margin-top: 0.55vw;
     margin-right: 0.8vw;
     font-size: 1.4vw;
     cursor: pointer;
@@ -53,9 +53,9 @@ nav {
 
 .nav-sections {
     float: right;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     font-family: "Open Sans";
-    margin-top: 0.19vw;
+    margin-top: 0.3vw;
     margin-right: 0.8vw;
     display: none; 
 }
@@ -87,7 +87,7 @@ nav {
     left: 3.5vw;
     width: 15vw;
     height: 8vw;
-    background-color: #F6F1F1;
+    background-color: #FDF4F5;
     border-radius: 37% 63% 34% 66% / 59% 27% 73% 41% ;
     z-index: 2;
 }
@@ -125,7 +125,7 @@ nav {
     right: 3.5vw;
     width: 15vw;
     height: 7vw;
-    background-color: #F6F1F1;
+    background-color: #FDF4F5;
     border-radius: 24% 76% 75% 25% / 55% 26% 74% 45% ;
     z-index: 2;
 }
@@ -163,7 +163,7 @@ nav {
     left: 12.5vw;
     width: 8vw;
     height: 13vw;
-    background-color: #F6F1F1;
+    background-color: #FDF4F5;
     border-radius: 52% 48% 13% 87% / 68% 77% 23% 32% ;
     z-index: 2;
 }
@@ -222,7 +222,7 @@ nav {
     left: 20vw;
     width: 60vw;
     height: 32vw;
-    background-color: #F6F1F1;
+    background-color: #FDF4F5;
     border-radius: 37% 63% 34% 66% / 59% 27% 73% 41% ;
     z-index: 2;
 }

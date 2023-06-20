@@ -1,0 +1,535 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}  
+
+/* NavBar */
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 2.5vw;
+    background-color: rgb(255, 234, 210, 0.5);
+    z-index: 3;
+}
+
+#logo {
+    background-image: url("Images/logo.name.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 0.1vw;
+    margin-left: 0.6vw;
+    width: 7.5vw;
+    height: 2vw;
+}
+
+#burger-menu {
+    float: right;
+    margin-top: 0.55vw;
+    margin-right: 0.8vw;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #e00b4c;
+}
+
+.nav-sections {
+    float: right;
+    font-size: 1.2vw;
+    font-family: "Open Sans";
+    margin-top: 0.3vw;
+    margin-right: 0.8vw;
+    display: none; 
+}
+.reference  {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Wheel */
+
+.background-color {
+    background-color: #FDF4F5;
+    height: 100vh;
+}
+
+.wheel {
+    border: 2vw solid #e00b4c;
+    border-radius: 50%;
+    margin-left: 30vw;
+    margin-top: 4vw;
+    position: absolute;
+    height: 40vw;
+    width: 40vw;
+    animation-name: wheel;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 2;
+  }
+
+  
+.cabin {
+    background-color: #E9A6A6;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    border-radius: 55% 45% 60% 40% / 42% 60% 40% 58%; 
+    transform-origin: 50% 0%;
+    animation: cabins 35s ease-in-out infinite;
+    font-family: "Kaushan Script";
+    font-size: 2vw;
+    color: #FDF4F5;
+    text-align: center;
+    padding-top: 8%;
+  }
+  
+
+  .wheel2 {
+    margin-left: 30vw;
+    margin-top: 4vw;
+    position: absolute;
+    height: 40vw;
+    width: 40vw;
+    animation-name: wheel;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  
+.cabin2 {
+    background-color: #B6EADA;
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    border-radius: 55% 45% 41% 59% / 47% 36% 64% 53% ;
+    transform-origin: 50% 0%;
+    animation: cabins2 25s ease-in-out infinite;
+    font-family: "Kaushan Script";
+    font-size: 2vw;
+    color: #FDF4F5;
+    text-align: center;
+    padding-top: 8%;
+  }
+
+  .cabin:hover {
+    opacity: 0.8;
+  }
+  
+  /* First Set of cabins animation */
+
+  .cabin:nth-of-type(1) {
+    right: -30%;
+    top: 60%;
+  }
+  .cabin:nth-of-type(2) {
+    right: 10%;
+    top: 93.5%;
+  }
+  .cabin:nth-of-type(3) {
+    right: 80%;
+    top: 95%;
+  }
+  .cabin:nth-of-type(4) {
+    left: -50%;
+    top: 60%;
+  }
+  .cabin:nth-of-type(5) {
+    left: -35%;
+    top: 20%;
+  }
+  .cabin:nth-of-type(6) {
+    right: 25%;
+    top: -35%;
+  }
+  .cabin:nth-of-type(7) {
+    left: 5%;
+    top: -15%;
+  }
+  .cabin:nth-of-type(8) {
+    right: -40%;
+    top: 15%;
+  }
+  .cabin:nth-of-type(9) {
+    left: -70%;
+    top: 0%;
+  }
+  .cabin:nth-of-type(10) {
+    right: -80%;
+    top: 40%;
+  }
+  .cabin:nth-of-type(11) {
+    right: -70%;
+    top: 90%;
+  }
+  .cabin:nth-of-type(12) {
+    right: -20%;
+    top: -30%;
+  }
+  .cabin:nth-of-type(13) {
+    left: -40%;
+    top: -35%;
+  }
+  .cabin:nth-of-type(14) {
+    right: 10%;
+    top: -70%;
+  }
+  .cabin:nth-of-type(15) {
+    left: 20%;
+    top: -70%;
+  }
+  .cabin:nth-of-type(16) {
+    right: -25%;
+    bottom: -45%;
+  }
+  .cabin:nth-of-type(17) {
+    left: -25%;
+    bottom: -55%;
+  }
+  .cabin:nth-of-type(18) {
+    right: 30%;
+    bottom: -60%;
+  }
+  .cabin:nth-of-type(19) {
+    left: -80%;
+    bottom: -30%;
+  }
+  .cabin:nth-of-type(20) {
+    left: 15%;
+    bottom: -80%;
+  }
+  .cabin:nth-of-type(21) {
+    right: -65%;
+    bottom: -66%;
+  }
+  .cabin:nth-of-type(22) {
+    left: -100%;
+    bottom: 30%;
+  }
+  .cabin:nth-of-type(23) {
+    right: -100%;
+    top: -8%;
+  }
+  .cabin:nth-of-type(24) {
+    right: -20%;
+    bottom: -85%;
+  }
+  
+  @keyframes wheel {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+ }
+
+ @keyframes cabins {
+    0% {
+      transform: rotate(360deg);
+    }
+    25% {
+      background-color: #E9A6A6;
+    }
+    50% {
+      background-color: #9F73AB;
+    }
+    75% {
+      background-color:#e00b4c;
+    }
+  }
+
+  @keyframes cabins2 {
+    0% {
+      transform: rotate(360deg);
+    }
+    25% {
+      background-color: #B6EADA;
+    }
+    50% {
+      background-color: #A3C7D6;
+    }
+    75% {
+      background-color:#5B8FB9;
+    }
+    100% {
+      transform: rotate();
+    }
+  }
+
+  /* Second Set of cabins animation */
+
+  .cabin2:nth-of-type(1) {
+    right: -30%;
+    top: 60%;
+  }
+  .cabin2:nth-of-type(2) {
+    right: 10%;
+    top: 93.5%;
+  }
+  .cabin2:nth-of-type(3) {
+    right: 80%;
+    top: 95%;
+  }
+  .cabin2:nth-of-type(4) {
+    left: -50%;
+    top: 60%;
+  }
+  .cabin2:nth-of-type(5) {
+    left: -35%;
+    top: 20%;
+  }
+  .cabin2:nth-of-type(6) {
+    right: 25%;
+    top: -35%;
+  }
+  .cabin2:nth-of-type(7) {
+    left: 5%;
+    top: -15%;
+  }
+  .cabin2:nth-of-type(8) {
+    right: -40%;
+    top: 15%;
+  }
+  .cabin2:nth-of-type(9) {
+    left: -70%;
+    top: 0%;
+  }
+  .cabin2:nth-of-type(10) {
+    right: -80%;
+    top: 40%;
+  }
+  .cabin2:nth-of-type(11) {
+    right: -70%;
+    top: 90%;
+  }
+  .cabin2:nth-of-type(12) {
+    right: -20%;
+    top: -30%;
+  }
+  .cabin2:nth-of-type(13) {
+    left: -40%;
+    top: -35%;
+  }
+  .cabin2:nth-of-type(14) {
+    right: 10%;
+    top: -70%;
+  }
+  .cabin2:nth-of-type(15) {
+    left: 20%;
+    top: -70%;
+  }
+  .cabin2:nth-of-type(16) {
+    right: -25%;
+    bottom: -45%;
+  }
+  .cabin2:nth-of-type(17) {
+    left: -25%;
+    bottom: -55%;
+  }
+  .cabin2:nth-of-type(18) {
+    right: 30%;
+    bottom: -60%;
+  }
+  .cabin2:nth-of-type(19) {
+    left: -80%;
+    bottom: -30%;
+  }
+  .cabin2:nth-of-type(20) {
+    left: 15%;
+    bottom: -80%;
+  }
+  .cabin2:nth-of-type(21) {
+    right: -65%;
+    bottom: -66%;
+  }
+  .cabin2:nth-of-type(22) {
+    left: -100%;
+    bottom: 30%;
+  }
+  .cabin2:nth-of-type(23) {
+    right: -100%;
+    top: -8%;
+  }
+  .cabin2:nth-of-type(24) {
+    right: -20%;
+    bottom: -85%;
+  }
+
+/* Content */
+
+.content, .content2, .content3 {
+  position: absolute;
+  left: 32vw;
+  top: 6vw;
+  z-index: 2;
+  width: 36vw;;
+  height: 36vw;
+  background-color: #FDF4F5;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.text {
+  font-size: 1.1vw;
+  font-family: "Open Sans";
+  text-align: center;
+  margin: 0 4vw;
+}
+
+  #f-name {
+    width: 8vw;
+    height: auto;
+    margin: 8vw 0 2vw;
+}
+
+#book-button {
+  width: 8vw;
+  height: 2vw;
+  margin: 1.5vw 0;
+  font-size: 1vw;
+  border-radius: 40%;
+  background: linear-gradient(#F47C7C, #EF9F9F, #FFB4B4, #FAD4D4);
+  border-top-color: #EF9F9F;
+  border-left-color: #FFB4B4;
+  border-right-color: #FFB4B4;
+  border-bottom-color: #FFDCDC;
+  color: white;
+}
+
+#book-button:hover {
+  color: #e00b4c;
+}
+
+/* Form */
+
+.content2 {
+  display: none;
+}
+
+form {
+  font-family: "Open Sans";
+  font-size: 1vw;
+	width: 100%;
+  max-height: 6vw;
+  text-align: left;
+  padding: 2.5vw 8vw;
+}
+
+.title {
+  font-family: "Kaushan Script";
+  font-size: 2.2vw;
+  text-align: center;
+  margin: 1.5vw 0;
+  color: #e00b4c;
+}
+
+fieldset, label {
+  width: 100%;
+  max-height: 2vw;
+  margin: 0.4vw 0;
+}
+
+input, textarea, select  {
+	width: 100%;
+  height: 1.6vw;
+  margin: 0 auto;
+  background-color: #FDF4F5;
+  border: none;
+  border-bottom: 2px solid #F47C7C;
+}
+
+input[type="radio"] {
+  position: relative;
+  width: 1vw;
+  top: 0.4vw;
+}
+
+input[type='radio']:after {
+  width: 1.2vw;
+  height: 1.2vw;
+  border-radius: 15px;
+  top: 0.2vw;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 1.3vw;
+  height: 1.3vw;
+  border-radius: 15px;
+  top: 0.18vw;
+  left: -1px;
+  position: relative;
+  background-color: #F47C7C;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+
+#submit{
+  width: 8vw;
+  height: 2vw;
+  margin: 1.5vw 6vw;
+  font-size: 1vw;
+  border-radius: 40%;
+  background: linear-gradient(#F47C7C, #EF9F9F, #FFB4B4, #FAD4D4);
+  border-top-color: #EF9F9F;
+  border-left-color: #FFB4B4;
+  border-right-color: #FFB4B4;
+  border-bottom-color: #FFDCDC;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  color: #e00b4c;
+}
+
+.content3 {
+  display: none;
+}
+
+.subscription {
+  font-family: "Open Sans";
+  font-size: 1.1vw;
+  text-align: center;
+  margin: 0 4vw;
+}
+
+#back-button {
+  width: 8.2vw;
+  height: 2.2vw;
+  margin: 2vw 0;
+  font-size: 1vw;
+  border-radius: 40%;
+  background: linear-gradient(#F47C7C, #EF9F9F, #FFB4B4, #FAD4D4);
+  border-top-color: #EF9F9F;
+  border-left-color: #FFB4B4;
+  border-right-color: #FFB4B4;
+  border-bottom-color: #FFDCDC;
+  color: white;
+}
+
+#back-button:hover {
+  color: #e00b4c;
+}
